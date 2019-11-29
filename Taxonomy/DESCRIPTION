@@ -1,0 +1,29 @@
+Package: Taxonomy
+Type: Package
+Title: Full Repository for Data-driven Taxonomy Development
+Version: 1.0
+Date: 2017-12-02
+Author: Andreas Hermann
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: This package includes the full collection of relevant R-files and datasets. The shiny web-application for interactive taxonomy development as well as additional data analysis functions are contained in the package.
+License: What license is it under?
+Depends:
+  shinydashboard,
+  plotly,
+  htmltools,
+  plyr,
+  caret,
+  PCAmixdata,
+  clustMixType,
+  gridExtra,
+  grid,
+  data.table,
+  htmlwidgets,
+  rpart.plot,
+  DT,
+  FD,
+  cluster,
+  ggpubr,
+  timeSeries
+ByteCompile: yes
+RoxygenNote: 6.0.1
